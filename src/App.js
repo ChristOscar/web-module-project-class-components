@@ -68,7 +68,8 @@ class App extends React.Component {
     return (
       <div className='App'>
         <div className='header'>
-        <h1>Welcome to the JessDo App!</h1>
+        <h1>Welcome to the To Do App! </h1>
+        <p>Use as you wish! Promise you wont be let down. </p>
         </div>
         <TodoList handleToggleTask={this.handleToggleTask} tasks={this.state.tasks} />
         <div className='todo-form'>
